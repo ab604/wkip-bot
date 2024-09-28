@@ -94,7 +94,7 @@ jobs:
       - name: Run bot
         run: |
           tryCatch({
-            source('bsky.R')
+            source('R/bsky.R')
           }, error = function(e) {
             message('Error in bsky.r: ', e$message)
             quit(status = 1)
