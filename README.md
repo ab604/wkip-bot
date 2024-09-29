@@ -1,8 +1,7 @@
 
 Last Updated on 2024-09-29
 
-<img src="img/fluent-emoji-high-contrast--man-white-hair.png"
-width="100" />
+<img src="img/fluent-emoji-high-contrast--man.png" width="100" />
 
 # Weekly post of Work in Progrees articles to Bluesky
 
