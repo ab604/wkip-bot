@@ -1,0 +1,36 @@
+- output: "/mnt/c/Users/ab604/Documents/work-in-progress-bot/img/issue-12-75.png"
+  url: "https://worksinprogress.co/issue-12/"
+  selectors:
+    - ".spotlight-card"
+  padding: 10.0
+- output: "/mnt/c/Users/ab604/Documents/work-in-progress-bot/img/issue-12-76.png"
+  url: "https://worksinprogress.co/issue-12/"
+  selectors:
+    - "article.article-card:nth-child(1)"
+  padding: 10.0
+- output: "/mnt/c/Users/ab604/Documents/work-in-progress-bot/img/issue-12-77.png"
+  url: "https://worksinprogress.co/issue-12/"
+  selectors:
+    - "article.article-card:nth-child(2)"
+  padding: 10.0
+- output: "/mnt/c/Users/ab604/Documents/work-in-progress-bot/img/issue-12-78.png"
+  url: "https://worksinprogress.co/issue-12/"
+  selectors:
+    - "article.article-card:nth-child(3)"
+  padding: 10.0
+- output: "/mnt/c/Users/ab604/Documents/work-in-progress-bot/img/issue-12-79.png"
+  url: "https://worksinprogress.co/issue-12/"
+  selectors:
+    - "article.article-card:nth-child(4)"
+  padding: 10.0
+- output: "/mnt/c/Users/ab604/Documents/work-in-progress-bot/img/issue-12-80.png"
+  url: "https://worksinprogress.co/issue-12/"
+  selectors:
+    - "article.article-card:nth-child(5)"
+  padding: 10.0
+- output: "/mnt/c/Users/ab604/Documents/work-in-progress-bot/img/issue-12-81.png"
+  url: "https://worksinprogress.co/issue-12/"
+  selectors:
+    - "article.article-card:nth-child(6)"
+  padding: 10.0
+
