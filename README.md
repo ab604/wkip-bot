@@ -1,6 +1,9 @@
 
 Last Updated on 2024-09-29
 
+<img src="img/fluent-emoji-high-contrast--man-white-hair.png"
+width="100" />
+
 # Weekly post of Work in Progrees articles to Bluesky
 
 I enjoy reading [Work in Progress](https://worksinprogress.co), but each
@@ -10,6 +13,9 @@ issue once it’s published. Each issue has 6 or 7 articles.
 So to help me keep up, I created a Bluesky bot to post a link and
 description of one of the 115 articles (at the time of writing) from the
 Work in Progress archive each week with a screenshot.
+
+Bluesky bot:
+[@wkipbot.bsky.social](https://bsky.app/profile/wkipbot.bsky.social)
 
 ## Scraping the articles with R
 
