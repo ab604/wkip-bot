@@ -7,7 +7,7 @@ library(lubridate)
 library(stringr)
 
 # Import data
-df <- read_csv("world-in-progress-articles-2024-09-28.csv")
+df <- read_csv("wkip-articles-2024-09-28.csv")
 
 # Get this weeks article
 this_week <- df |> 

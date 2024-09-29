@@ -1,4 +1,5 @@
 # Write YAML files for shot scraper
+# A. Bailey 2024-09-29
 
 # Set-up -----------------------------------------------------------------------
 library(dplyr)
