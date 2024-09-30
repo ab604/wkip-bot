@@ -4,10 +4,10 @@ name: Post to bsky
 # Define when the workflow should run
 on:
   schedule:
-    - cron: '30 7 * * 0' # run the bot Sun @ 0830
-  # push:
-  #   branches:
-  #     - main
+    - cron: '30 7 * * 2' # run the bot Tue @ 0830
+   push:
+     branches:
+       - main
   #pull_request:
    # branches:
     #  - main
@@ -94,7 +94,7 @@ jobs:
       - name: Run bot
         run: |
           tryCatch({
-            source('R/bsky.R')
+            source('R/bsky_tue.R')
           }, error = function(e) {
             message('Error in bsky.r: ', e$message)
             quit(status = 1)

@@ -5,6 +5,8 @@ library(dplyr)
 library(readr)
 library(lubridate)
 library(stringr)
+source("R/get-post-uri-by-date.R")
+source("R/repost.R")
 
 # Import data
 df <- read_csv("wkip-articles-2024-09-28.csv")
