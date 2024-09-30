@@ -5,12 +5,12 @@ name: Post to bsky
 on:
   schedule:
     - cron: '30 7 * * 2' # run the bot Tue @ 0830
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
+  # push:
+  #   branches:
+  #     - main
+  # pull_request:
+  #   branches:
+  #     - main
 
 jobs:
   blog-updates:

@@ -11,7 +11,7 @@ source("R/repost.R")
 # Get Sunday post
 post_uri <- get_post_uri_by_date(
   handle = "@wkipbot.bsky.social", 
-  target_date = Sys.Date() - 1,  # Sunday's date
+  target_date = Sys.Date() - 2,  # Sunday's date
   username =  "@wkipbot.bsky.social", 
   app_password =  Sys.getenv("WIP_PW"))
 
