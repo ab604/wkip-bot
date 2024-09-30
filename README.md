@@ -1,5 +1,5 @@
 
-Last Updated on 2024-09-29
+Last Updated on 2024-09-30
 
 <img src="img/fluent-emoji-high-contrast--man.png" width="100" />
 
@@ -45,6 +45,13 @@ create the YAML for taking screenshots. I wanted to post one article a
 week at random from the archive, so I created article `id` and date
 `post_week` variable that was randomly assigned to each `id`.
 
+I’ve added a `get_post_uri_by_date()` and `repost()` function to enable
+reposting the article during the posting week.
+
+The initial post is done with `bsky.R` and the reposts use the
+`bsky_tue.R` and `bsky_fri.R` scripts with the associated Github Action
+`yml`.
+
 ## Getting the screenshots with shot-scraper
 
 I used Simon Willison’s
@@ -70,6 +77,5 @@ how the bot is set-up using R
 [atrrr](https://jbgruber.github.io/atrrr/index.html) and Github Actions
 to post to Bluesky.
 
-I’ve set `cron` to post the same article on Sunday, Tuesday and Friday
-each week at 0730 UTC. This might change if I can figure out how to
-re-post or it’s too annoying.
+To post and repost, I’ve created a bot `yml` Github action with a `cron`
+job for each Github Action: `bot.yml`, `bot_tue.yml`, `bot_fri.yml`.

@@ -8,11 +8,6 @@ library(stringr)
 source("R/get-post-uri-by-date.R")
 source("R/repost.R")
 
-# Authenticate 
-auth(user = "wkipbot.bsky.social",
-     password = Sys.getenv("WIP_PW"),
-     overwrite = TRUE)
-
 # Get Sunday post
 post_uri <- get_post_uri_by_date(
   handle = "@wkipbot.bsky.social", 
