@@ -1,6 +1,8 @@
 
 Last Updated on 2024-09-30
 
+This bot has been retired now Works in Progress are officially on Bluesky [@worksinprogress.bsky.social](https://bsky.app/profile/worksinprogress.bsky.social)
+
 <img src="img/fluent-emoji-high-contrast--man.png" width="100" />
 
 # Weekly post of Work in Progrees articles to Bluesky
@@ -14,7 +16,7 @@ description of one of the 115 articles (at the time of writing) from the
 Work in Progress archive each week with a screenshot.
 
 Bluesky bot:
-[@wkipbot.bsky.social](https://bsky.app/profile/wkipbot.bsky.social)
+<! -- [@wkipbot.bsky.social](https://bsky.app/profile/wkipbot.bsky.social) -->
 
 ## Scraping the articles with R
 
