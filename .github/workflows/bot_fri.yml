@@ -2,9 +2,9 @@
 name: Post to bsky
 
 # Define when the workflow should run
-on:
-  schedule:
-    - cron: '30 7 * * 5' # run the bot Fri @ 0830
+#on:
+#  schedule:
+#    - cron: '30 7 * * 5' # run the bot Fri @ 0830
   # push:
   #   branches:
   #     - main
